@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:journal_app/screens/auth_wrapper.dart';
 import 'package:journal_app/screens/journal_homescreen.dart';
 
 
@@ -8,6 +9,6 @@ class MyApp extends StatelessWidget {
 
   @override
    Widget build(BuildContext context) {
-    return MaterialApp(title: 'My App', debugShowCheckedModeBanner: false, home: JournalHomeScreen(),);
+    return MaterialApp(title: 'My App', debugShowCheckedModeBanner: false, home: AuthWrapper(),);
     }
   }
